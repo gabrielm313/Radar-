@@ -9,7 +9,7 @@ import time
 from csv import DictWriter
 
 # Defini qual camera será utilizada na captura
-camera = cv2.VideoCapture(1)
+camera = cv2.VideoCapture(0)
 
 # Cria variáveis para captura de altura e largura
 h, w = None, None
